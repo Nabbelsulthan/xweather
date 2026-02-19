@@ -48,7 +48,7 @@ function App() {
       <button onClick={handleSearch}>Search</button>
 
       {/* Loading Message */}
-      {loading && <p>Loading data…</p>}
+      {loading && <p>Loading data...</p>}
 
       {/* Weather Cards */}
       {weather && (
